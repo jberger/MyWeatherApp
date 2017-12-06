@@ -1,5 +1,4 @@
 package MyWeatherApp::Model::Weather;
-
 use Mojo::Base -base;
 
 use Carp ();
