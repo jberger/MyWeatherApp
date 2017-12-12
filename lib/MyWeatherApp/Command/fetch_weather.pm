@@ -15,7 +15,7 @@ sub run {
   my $app = $self->app;
 
   unless (@args) {
-    @args = @{ $app->config->search || [] };
+    @args = @{ $app->config->{search} || [] };
   }
 
   for my $search (@args) {
