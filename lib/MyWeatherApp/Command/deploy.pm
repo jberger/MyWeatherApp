@@ -8,7 +8,7 @@ has 'usage' => <<"USAGE";
 $0 deploy [OPTIONS]
 
 OPTIONS:
-  -v , --verbose  the version to deploy
+  -v , --version  the version to deploy
                   defaults to latest
 USAGE
 
